@@ -1,0 +1,120 @@
+#main_home div {
+    display       : block;
+    width         : 90%;
+    margin        : auto;
+    margin-bottom : 16px;
+}
+
+#main_home article {
+    display        : inline-block;
+    vertical-align : top;
+    height         : 480px;
+    margin-top     : 12px;
+}
+
+#main_home article.filter {
+    position         : sticky;
+    display          : inline-block;
+    top              : 48px;
+    height           : 64px;
+    background-color : var(--color-body);
+    font-size        : 1rem;
+    text-align       : center;
+    line-height      : 48px;
+    margin-top       : 0;
+}
+
+#main_home article.content {
+    display          : none;
+    background-color : var(--color-article);
+    border           : 1px solid rgba(0, 0, 0, .125);
+    border-radius    : 0.25rem;
+    padding          : 16px;
+    max-height       : 480px;
+    font-family      : 'Open Sans', sans-serif;
+    font-size        : 1rem;
+}
+
+#main_home article img {
+    width         : 100%;
+    /*border        : 2px inset var(--color-background);*/
+    border-radius : 0.15rem;
+    margin-bottom : 8px;
+}
+
+
+#main_home article h3 {
+    display          : inline;
+    background-color : var(--color-highlight);
+    color            : var(--color-body);
+    padding          : 4px 8px;
+    border-radius    : 0.75rem;
+    font-size        : 0.75rem;
+    font-weight      : normal;
+}
+
+#main_home article h4 {
+    font-size : 1.5rem;
+    margin    : 16px 0 8px 0;
+}
+
+#main_home article p {
+    display       : inline-block;
+    max-height    : 6rem;
+    padding-right : 16px;
+    margin-top    : 0;
+    text-align    : justify;
+}
+
+#main_home article span {
+    display       : block;
+    text-align    : right;
+    padding-right : 32px;
+}
+
+#main_home article a {
+    text-decoration : none;
+    color           : var(--color-text);
+    padding         : 8px;
+
+    transition      : .4s;
+}
+
+#main_home article a:hover {
+    background-color : var(--color-text);
+    border-radius    : 0.25rem;
+    color            : var(--color-body);
+    font-weight      : bold;
+}
+
+#main_home article.content.show {
+    display : inline-block;
+}
+
+#main_home .btn {
+    outline          : none;
+    border           : none;
+    border-radius    : 0.2rem;
+    padding          : 6px 16px;
+    background-color : var(--color-selection);
+    cursor           : pointer;
+    margin           : 0 32px;
+    color            : var(--color-text);
+
+    transition      : .4s;
+}
+
+#main_home .btn:hover {
+    background-color : var(--color-background);
+}
+
+#main_home .btn.active {
+    background-color : var(--color-highlight);
+    color            : var(--color-body);
+}
+
+#main_home hr {
+    margin        : 0 auto;
+    width         : 50%;
+    border-bottom : var(--color-logo-background) solid 1px;
+}

@@ -1,0 +1,212 @@
+#main_contact div {
+    display: block;
+    width: 90%;
+    margin: auto auto 16px;
+}
+
+#main_contact article {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+}
+
+#main_contact article h1 {
+    font-size: 1.5rem;
+    margin: 16px auto;
+    text-align: center;
+}
+
+#main_contact article p {
+    display: inline-block;
+    max-height: 6rem;
+    padding-right: 16px;
+    margin-top: 0;
+    text-align: justify;
+}
+
+#main_contact hr {
+    margin: 0 auto;
+    width: 50%;
+    border-bottom: var(--color-logo-background) solid 1px;
+}
+
+#main_contact section {
+    min-height: 960px;
+    padding: 15px;
+}
+
+#main_contact ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+#main_contact form {
+    margin: 0 auto;
+    padding: 40px;
+}
+
+
+#main_contact .input-block {
+    border: none;
+    width: 100%;
+    height: 60px;
+    border-bottom: 2px solid var(--color-highlight);
+    margin: 0;
+    margin-bottom: 20px;
+    position: relative;
+
+    transition: all 0.4s ease-out;
+}
+
+
+#main_contact .textarea {
+
+    height: 16rem;
+}
+
+#main_contact .input-block.textarea .form-control {
+    height: auto;
+    resize: none;
+}
+
+#main_contact .input-block label {
+    position: absolute;
+    left: 5px;
+    top: 32px;
+    display: block;
+    margin: 0;
+    font-weight: 400;
+    z-index: 1;
+    color: var(--color-body-shadow);
+    font-size: 1.25rem;
+    line-height: 10px;
+}
+
+#main_contact .input-block label.small-text,
+#main_contact .input-block textarea.small-text {
+    left: -10px;
+    top: 10px;
+    font-size: 1rem;
+
+    transition: .4s ease-in-out;
+}
+
+#main_contact .input-block label.large-text,
+#main_contact .input-block textarea.large-text {
+    left: 5px;
+    top: 32px;
+    font-size: 1.25rem;
+
+    transition: .4s ease-in-out;
+}
+
+#main_contact .input-block .form-control {
+    background-color: transparent;
+    margin-top: 32px;
+    outline: none;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: auto;
+    padding: 0px 10px 30px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+    color: #333;
+
+}
+
+
+#main_contact .square-button {
+    background-color: var(--color-highlight);
+    color: var(--color-body);
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.2rem;
+    padding: 0 60px;
+    height: 60px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    width: 100%;
+
+    transition: all 0.4s ease-out;
+}
+
+#main_contact .square-button:hover,
+#main_contact .square-button:focus {
+    background-color: var(--color-text);
+    color: var(--color-highlight);
+
+}
+
+
+#main_contact .modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear .4s, opacity .4s 0s, transform 0.4s;
+}
+
+#main_contact .modal-content {
+    margin: auto;
+    z-index: 11;
+    background-color: var(--color-body);
+    border-radius: 0.25rem;
+}
+
+#main_contact section .modal-content {
+    height: 300px;
+    min-height: 300px;
+    margin-top: 64px;
+}
+
+#main_contact section .modal-content h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 16px 16px 0;
+}
+
+#main_contact section .modal-content p {
+    font-size: initial;
+    text-align: justify;
+    padding: 0 16px;
+}
+
+
+#main_contact .close-button {
+    z-index: 12;
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    background-color: var(--color-body-shadow);
+
+    transition: ease-in-out .4s;
+}
+
+#main_contact .close-button:hover {
+    background-color: var(--color-highlight);
+    color: var(--color-body);
+}
+
+#main_contact .show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.4s 0s, transform 0.4s;
+}

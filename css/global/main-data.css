@@ -1,0 +1,93 @@
+#main_data div {
+    display       : block;
+    width         : 90%;
+    margin        : auto auto 16px;
+}
+
+#main_data article {
+    display        : inline-block;
+    vertical-align : top;
+    height         : 480px;
+    margin-top     : 12px;
+}
+
+/*#main_data article.content {*/
+/*    display          : inline-block;*/
+/*    background-color : var(--color-article);*/
+/*    border           : 1px solid rgba(0, 0, 0, .125);*/
+/*    border-radius    : 0.25rem;*/
+/*    padding          : 16px;*/
+/*    top              : 48px;*/
+/*    min-height       : 960px;*/
+/*    font-family      : 'Open Sans', sans-serif;*/
+/*    font-size        : 1rem;*/
+/*    text-align       : center;*/
+/*    line-height      : 48px;*/
+/*}*/
+
+#main_data table {
+    border-collapse : collapse;
+    border-spacing  : 0;
+    width           : 100%;
+    margin-top      : 32px;
+}
+
+#main_data th, td {
+    text-align : center;
+    padding    : 8px;
+}
+
+#main_data th.title {
+    width : 30%;
+}
+
+#main_data th:first-child, td:first-child {
+    text-align : left;
+}
+
+#main_data tr:nth-child(even) {
+    background-color : var(--color-body);
+}
+
+#main_data tr:hover {
+    background-color : var(--color-body-shadow);
+    transition       : .3s;
+}
+
+#main_data tr:first-child:hover {
+    background-color: unset;
+}
+
+#main_data article span {
+    display    : block;
+    text-align : center;
+}
+
+#main_data .check {
+    color       : green;
+    font-weight : bold;
+}
+
+#main_data .clear {
+    color       : red;
+    font-weight : bold;
+}
+
+#main_data article h1 {
+    font-size : 1.5rem;
+    margin    : 16px 0;
+}
+
+#main_data article p {
+    display       : inline-block;
+    max-height    : 6rem;
+    padding-right : 16px;
+    margin-top    : 0;
+    text-align    : justify;
+}
+
+#main_data hr {
+    margin        : 0 auto;
+    width         : 50%;
+    border-bottom : var(--color-logo-background) solid 1px;
+}

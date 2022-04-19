@@ -1,0 +1,131 @@
+#main_about div {
+    display: block;
+    width: 90%;
+    margin: auto auto 16px;
+}
+
+#main_about article {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+}
+
+#main_about article h1 {
+    font-size: 1.5rem;
+    margin: 16px 0;
+}
+
+#main_about article p {
+    display: inline-block;
+    max-height: 6rem;
+    text-align: justify;
+    color: var(--color-text);
+    margin: 32px;
+    padding: 0 4px;
+    line-height: normal;
+}
+
+#main_about hr {
+    margin: 0 auto;
+    border-bottom: var(--color-logo-background) solid 1px;
+}
+
+#main_about hr.hr-about {
+    width: 50%;
+}
+
+
+#main_about span {
+    color: var(--color-highlight);
+}
+
+#main_about section {
+    font-family: "IBM Plex Mono", monospace;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+#main_about .container {
+    margin: 64px auto 32px;
+}
+
+#main_about .empty {
+    height: 48px;
+}
+
+#main_about .empty-half {
+    height: 24px;
+}
+
+#main_about .slider {
+    display: inline-block;
+    /* border: 1px solid black; */
+    height: 48px;
+    width: 240px;
+    text-align: center;
+    overflow: hidden;
+}
+
+#main_about .slider-content {
+    position: relative;
+    display: inline-block;
+    height: 288px;
+    text-align: center;
+    animation: slide 5s linear infinite;
+}
+
+#main_about .line-fixed {
+    height: 48px;
+    text-align: center;
+    margin: -16px 0 -4px;
+}
+
+#main_about .line-1 {
+    background-color: #fff700;
+    color: black;
+}
+
+#main_about .line-2 {
+    background-color: rgb(0, 110, 255);
+    color: white;
+}
+
+#main_about .line-3 {
+    background-color: rgb(255, 81, 0);
+    color: white;
+}
+
+@keyframes slide {
+    0% {
+        top: -264px;
+    }
+
+    1.6% {
+        top: -212px;
+    }
+
+    31.6% {
+        top: -212px;
+    }
+
+    35% {
+        top: -118px;
+    }
+
+    65% {
+        top: -118px;
+    }
+
+    68.4% {
+        top: -22px;
+    }
+
+    98.4% {
+        top: -22px;
+    }
+
+    100% {
+        top: 24px;
+    }
+}

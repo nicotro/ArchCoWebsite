@@ -1,0 +1,129 @@
+[
+  {
+    "picture": "img/202204Article_Arch_Building_Hokota-minami-Elementary-School-01.jpg",
+    "alt": "Hokota-minami Elementary School",
+    "categories": [
+      "interior",
+      "building"
+    ],
+    "title": "Hokota-minami School",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  },
+  {
+    "picture": "img/202204Article_Arch_House_Derwent-Valley-Villa-01.jpg",
+    "alt": "Derwent Valley Villa",
+    "categories": [
+      "house"
+    ],
+    "title": "Derwent Valley Villa",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  },
+  {
+    "picture": "img/202204Article_Arch_Interior_Derwent-Valley-Villa-01.jpg",
+    "alt": "Derwent Valley Villa interior",
+    "categories": [
+      "interior"
+    ],
+    "title": "Derwent Valley Villa interior",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  },
+  {
+    "picture": "img/202204Article_Arch_Building_Hangzhou-Yuhang-Opera-01.jpg",
+    "alt": "Hangzhou Yuhang Opera",
+    "categories": [
+      "building",
+      "design"
+    ],
+    "title": "Hangzhou Yuhang Opera",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  },
+  {
+    "picture": "img/202204Article_Arch_Interior_Portsea-House-01.jpg",
+    "alt": "Portsea House interior",
+    "categories": [
+      "interior"
+    ],
+    "title": "Portsea House interior",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  },
+  {
+    "picture": "img/202204Article_Arch_House_Portsea-House-01.jpg",
+    "alt": "Portsea House",
+    "categories": [
+      "house",
+      "design"
+    ],
+    "title": "Portsea House",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  },
+  {
+    "picture": "img/202204Article_Arch_Interior_Tini_M_Refuge-01.jpg",
+    "alt": "Tini M Refuge interior",
+    "categories": [
+      "interior"
+    ],
+    "title": "Tini M Refuge interior",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  },
+  {
+    "picture": "img/202204Article_Arch_Building_NiYang_Atelier-01.jpg",
+    "alt": "NiYang Atelier",
+    "categories": [
+      "building"
+    ],
+    "title": "NiYang Atelier",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  },
+  {
+    "picture": "img/202204Article_Arch_Building_Cortesia-de-S-Winter-Station-01.jpg",
+    "alt": "S'Winter Lifeguard Station",
+    "categories": [
+      "building",
+      "design"
+    ],
+    "title": "S'Winter Lifeguard Station",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  },
+  {
+    "picture": "img/202204Article_Arch_Building_Dong-Myung-Church.jpg",
+    "alt": "Dong Myung Church",
+    "categories": [
+      "building",
+      "design"
+    ],
+    "title": "Dong Myung Church",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  },
+  {
+    "picture": "img/202204Article_Arch_Building_Flex-House-01.jpg",
+    "alt": "Flex House",
+    "categories": [
+      "building",
+      "design"
+    ],
+    "title": "Flex House",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum doloribus ducimus error et nemo quas quis repudiandae sit sunt.",
+    "link": "javascript:void(0)",
+    "action": "Read more..."
+  }
+]

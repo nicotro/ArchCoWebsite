@@ -1,0 +1,25 @@
+header {
+    height           : 720px;
+    background-color : var(--color-footer);
+    /* Photo by <a href="https://unsplash.com/@johanna_quinn?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jo Quinn</a> on <a href="https://unsplash.com/s/photos/tadao-ando?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*/
+    background-image : url("../../img/2022Header01.jpg");
+    background-size  : cover;
+    color            : var(--color-text);
+    font-family      : 'IBM Plex Mono', monospace;
+    text-align       : center;
+}
+
+header h1 {
+    display        : inline-block;
+    font-size      : 6rem;
+    letter-spacing : 0.25rem;
+    margin         : 172px 0;
+    line-height    : 5rem;
+    padding        : 1rem 1rem;
+    background     : var(--color-logo-background);
+    color          : var(--color-logo-text);
+}
+
+header h1 span {
+    color : var(--color-highlight);
+}
