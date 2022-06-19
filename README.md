@@ -11,6 +11,7 @@ Requirements:
 **Development choices:**
 - Architecture oriented website, light visuals with many pictures and a simple color palette 
 - Designed as a single page web app to optimize the navigation part  
+- All sections share the same custom css grid layout 
 - Clean UI/UX for an easy to read and to navigate website (filters, back to top, modal, ...)
 - [Try it here](https://nicotro.github.io/ArchCoWebsite/)
 ![Home page preview](/ArchCoWebsite_cover.png)
